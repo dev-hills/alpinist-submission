@@ -68,10 +68,10 @@ const Submit = () => {
     e.preventDefault();
 
     if (
-      !details.slackUsername &&
-      !details.githubUsername &&
-      !details.linkToRepo &&
-      !details.liveUrl &&
+      !details.slackUsername ||
+      !details.githubUsername ||
+      !details.linkToRepo ||
+      !details.liveUrl ||
       !details.learnt
     ) {
       setIsOpen(false);
