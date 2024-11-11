@@ -43,7 +43,7 @@ const Submit = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date("2024-11-11T12:00:00");
+    const targetDate = new Date("2024-11-11T23:59:00");
     const interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = targetDate.getTime() - now;
