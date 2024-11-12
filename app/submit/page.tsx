@@ -152,7 +152,11 @@ const Submit = () => {
       </div>
 
       <div className="w-[60%] sm:w-[70%] ml-[40%] sm:ml-[33%] h-screen overflow-auto px-[80px] sm:px-[10px] py-[60px] flex flex-col gap-[45px] sm:gap-[39px]">
-        <div>
+        <h1 className="text-[30px] text-center font-bold flex items-center justify-center w-full h-full">
+          Submission is closed, <br />
+          you no dey hear word ni
+        </h1>
+        {/* <div>
           <p className="text-[17px] mb-[15px]">Slack Username</p>
           <input
             type="text"
@@ -248,7 +252,7 @@ const Submit = () => {
               </AlertDialogFooter>
             </AlertDialogContent>
           </AlertDialog>
-        </div>
+        </div> */}
 
         <div className="sm:block hidden">
           <div className="flex gap-[35px] justify-center mt-4 bg-purple-700 p-4 rounded-lg shadow-lg">
